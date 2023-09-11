@@ -1,0 +1,4 @@
+<link src1="{% static 'my_app/example.jpg' %}" alt="My image">
+   <img class="img-fluid" src="/static/template1_src/img/icon-deal1.png" alt="Icon" style="width: 30px; height: 30px;">
+
+   <img class="img-fluid" src="{% static '/template1_src/img/icon-deal1.png'%} alt="Icon" style="width: 30px; height: 30px;">
